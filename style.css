@@ -1,24 +1,53 @@
-/* Background Image Settings */
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url('background.jpg'); /* apni image da naam ith change karo */
-  background-size: cover;       /* image screen nu cover karegi */
-  background-position: center;  /* center vich rahegi */
-  background-repeat: no-repeat; /* repeat nahi hovegi */
-  height: 100vh;                /* poori screen height */
-  font-family: Arial, sans-serif;
-  color: white;                 /* text visible rahe white background te */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-/* Content Box Styling */
-.content {
-  background: rgba(0, 0, 0, 0.5); /* halki black transparent box */
-  text-align: center;
-  padding: 50px;
-  border-radius: 20px;
-  width: 80%;
-  max-width: 600px;
-  margin: 100px auto;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
