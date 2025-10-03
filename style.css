@@ -1,0 +1,24 @@
+/* Background Image Settings */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg'); /* apni image da naam ith change karo */
+  background-size: cover;       /* image screen nu cover karegi */
+  background-position: center;  /* center vich rahegi */
+  background-repeat: no-repeat; /* repeat nahi hovegi */
+  height: 100vh;                /* poori screen height */
+  font-family: Arial, sans-serif;
+  color: white;                 /* text visible rahe white background te */
+}
+
+/* Content Box Styling */
+.content {
+  background: rgba(0, 0, 0, 0.5); /* halki black transparent box */
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 100px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
